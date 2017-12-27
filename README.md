@@ -1,4 +1,4 @@
-#Scala-Study using "Programming Scala"
+# Scala-Study using "Programming Scala"
 
 
-##FIRST - Install
+## FIRST - Install
