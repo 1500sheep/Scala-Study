@@ -5,11 +5,11 @@
 
 
 ## SECOND 
-	' - Concept
+	 - Concept
 		- A JVM and JavaScript language
 		- Statically typed
-		- Mixed paradigm -* object oriented programming *
-		- Mixed paradigm -* functional programming *
+		- Mixed paradigm - *object oriented programming*
+		- Mixed paradigm - *functional programming*
 		- A sophisticated type system
-		- A succint, elegant, and flexible syntax-* DLSs *
-		- Scalable architectures '
+		- A succint, elegant, and flexible syntax- *DLSs*
+		- Scalable architectures 
