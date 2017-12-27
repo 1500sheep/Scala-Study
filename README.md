@@ -8,8 +8,8 @@
 	 - Concept
 		- A JVM and JavaScript language
 		- Statically typed
-		- Mixed paradigm - *object oriented programming*
-		- Mixed paradigm - *functional programming*
+		- Mixed paradigm - _object oriented programming_
+		- Mixed paradigm - _functional programming_
 		- A sophisticated type system
-		- A succint, elegant, and flexible syntax- *DLSs*
+		- A succint, elegant, and flexible syntax- _DLSs_
 		- Scalable architectures 
