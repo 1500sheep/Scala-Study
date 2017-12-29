@@ -1,3 +1,7 @@
 compile
 run
 exit
+run
+exit
+compile futures.sc
+exit
