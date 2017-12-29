@@ -3,9 +3,8 @@
 ### 기본 개념
 	
 
-
 ### 차이점
-	**upper1.sc** VS **upper2.sc**
+	** upper1.sc ** VS **upper2.sc**
 
 		1. class와 다르게 object는 singleton Pattern! 따라서 new를 통해 객체로 접근하는게 아니라 Class명으로 접근!!
 		2. 함수 upper의 매개변수, strings:String* 은 매개변수가 여러개(0개부터 다수)가능 한 것을 뜻함 ("*"가 그 의미)
