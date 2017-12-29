@@ -1,0 +1,14 @@
+compile
+exit
+compile
+ls
+console
+exit
+compile
+console
+exit
+run
+compile
+exit
+compile
+exit

@@ -1,0 +1,56 @@
+[0m[[0m[31merror[0m] [0m[0m/home/jameskang/gitProject/Scala-Study/src/introscala/ShapesActorDriver.scala:2:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.actor.{Props,Actor,ActorRef,ActorSystem}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jameskang/gitProject/Scala-Study/src/introscala/ShapesActorDriver.scala:3:12: object typesafe is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.typesafe.config.ConfigFactory[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jameskang/gitProject/Scala-Study/src/introscala/ShapesActorDriver.scala:19:58: not found: type Actor[0m
+[0m[[0m[31merror[0m] [0m[0mclass ShapesDrawingDriver(drawerActor: ActorRef) extends Actor{[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jameskang/gitProject/Scala-Study/src/introscala/ShapesActorDriver.scala:19:40: not found: type ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0mclass ShapesDrawingDriver(drawerActor: ActorRef) extends Actor{[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jameskang/gitProject/Scala-Study/src/introscala/ShapesActorDriver.scala:10:16: not found: value ActorSystem[0m
+[0m[[0m[31merror[0m] [0m[0m		val system = ActorSystem("DrawingActorSystem",ConfigFactory.load())[0m
+[0m[[0m[31merror[0m] [0m[0m		             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jameskang/gitProject/Scala-Study/src/introscala/ShapesActorDriver.scala:10:49: not found: value ConfigFactory[0m
+[0m[[0m[31merror[0m] [0m[0m		val system = ActorSystem("DrawingActorSystem",ConfigFactory.load())[0m
+[0m[[0m[31merror[0m] [0m[0m		                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jameskang/gitProject/Scala-Study/src/introscala/ShapesActorDriver.scala:20:9: not found: value Messages[0m
+[0m[[0m[31merror[0m] [0m[0m	import Messages._[0m
+[0m[[0m[31merror[0m] [0m[0m	       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jameskang/gitProject/Scala-Study/src/introscala/ShapesActorDriver.scala:22:16: missing parameter type for expanded function[0m
+[0m[[0m[31merror[0m] [0m[0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[0m[31merror[0m] [0m[0mExpected type was: ?[0m
+[0m[[0m[31merror[0m] [0m[0m	def receive = {[0m
+[0m[[0m[31merror[0m] [0m[0m	              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jameskang/gitProject/Scala-Study/src/introscala/ShapesActorDriver.scala:29:7: not found: value Finished[0m
+[0m[[0m[31merror[0m] [0m[0m	case Finished =>[0m
+[0m[[0m[31merror[0m] [0m[0m	     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jameskang/gitProject/Scala-Study/src/introscala/ShapesActorDriver.scala:31:3: not found: value context[0m
+[0m[[0m[31merror[0m] [0m[0m		context.system.shutdown()[0m
+[0m[[0m[31merror[0m] [0m[0m		^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jameskang/gitProject/Scala-Study/src/introscala/ShapesActorDriver.scala:32:17: not found: type Response[0m
+[0m[[0m[31merror[0m] [0m[0m	case response: Response=>	[0m
+[0m[[0m[31merror[0m] [0m[0m	               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jameskang/gitProject/Scala-Study/src/introscala/ShapesDrawingActor.scala:7:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.actor.Actor[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jameskang/gitProject/Scala-Study/src/introscala/ShapesDrawingActor.scala:9:34: not found: type Actor[0m
+[0m[[0m[31merror[0m] [0m[0mclass ShapesDrawingActor extends Actor{[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jameskang/gitProject/Scala-Study/src/introscala/ShapesDrawingActor.scala:12:14: missing parameter type for expanded function[0m
+[0m[[0m[31merror[0m] [0m[0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[0m[31merror[0m] [0m[0mExpected type was: ?[0m
+[0m[[0m[31merror[0m] [0m[0m	def receive={[0m
+[0m[[0m[31merror[0m] [0m[0m	            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jameskang/gitProject/Scala-Study/src/introscala/ShapesDrawingActor.scala:15:3: not found: value sender[0m
+[0m[[0m[31merror[0m] [0m[0m		sender ! Response(s"ShapesDrawingActor: $s drawn")[0m
+[0m[[0m[31merror[0m] [0m[0m		^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jameskang/gitProject/Scala-Study/src/introscala/ShapesDrawingActor.scala:18:3: not found: value sender[0m
+[0m[[0m[31merror[0m] [0m[0m		sender ! Finished[0m
+[0m[[0m[31merror[0m] [0m[0m		^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jameskang/gitProject/Scala-Study/src/introscala/ShapesDrawingActor.scala:22:3: not found: value sender[0m
+[0m[[0m[31merror[0m] [0m[0m		sender ! response[0m
+[0m[[0m[31merror[0m] [0m[0m		^[0m
+[0m[[0m[31merror[0m] [0m[0m17 errors found[0m
