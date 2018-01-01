@@ -1,3 +1,5 @@
 sbt compile
 :quit
 exit
+run
+exit
